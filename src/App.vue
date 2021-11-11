@@ -34,7 +34,7 @@
           <div class="layout-nav">
             <MenuItem name="1">
               <Icon type="ios-navigate"></Icon>
-              Item 1
+              个人中心
             </MenuItem>
             <MenuItem name="2">
               <Icon type="ios-keypad"></Icon>
