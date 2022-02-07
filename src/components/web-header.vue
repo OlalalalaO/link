@@ -70,7 +70,7 @@
     </div>
     <div class="sign">
       <Button class="btn_sign" type="primary" shape="circle" size="large">
-        <spin style="font-weight: bold; color: aliceblue">Sign Up Free</spin>
+        <spin style="font-weight: bold; color: aliceblue">Sign Up</spin>
       </Button>
       <Button class="btn_login" shape="circle" size="large" style="font-weight: bold;">Login</Button>
     </div>
