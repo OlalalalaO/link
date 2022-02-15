@@ -32,6 +32,10 @@ export default {
   methods: {
     handleClick() {
       console.log(this.user);
+      this.$axios.post("http://localhost:9091/admin/test", this.user).then(res => {
+        console.log(res.data);
+
+      });
     },
     resetPassword() {
       console.log('点击了忘记密码');
