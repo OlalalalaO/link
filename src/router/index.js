@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Manager from "@/views/manager";
-import LogIn from "@/views/log-in";
-
-
+import Login from "@/views/login";
+import Register from "@/views/register";
+import Reset from "@/views/reset";
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,10 +14,19 @@ const routes = [
     },*/
     {
         path: "/",
-        name: 'Manager',
-        component: Manager
+        name: 'Login',
+        component: Login
+    },
+    {
+        path: "/regeister",
+        name: 'Register',
+        component: Register
+    },
+    {
+      path: "/reset",
+      name: 'Reset',
+      component: Reset
     }
-
 
 ]
 

@@ -6,7 +6,7 @@
 
 <script>
 
-import WebHeader from "@/components/web-header";
+import WebHeader from "@/components/web_header";
 export default {
   name: "manager",
   components: {WebHeader}

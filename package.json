@@ -1,5 +1,5 @@
 {
-  "name": "job-list",
+  "name": "link",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "ant-design-vue": "^1.7.8",
+    "antd": "^4.18.6",
     "core-js": "^3.6.5",
     "iview": "^3.5.4",
     "view-design": "^4.7.0-beta.11",
